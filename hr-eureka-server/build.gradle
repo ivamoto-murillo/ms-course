@@ -21,6 +21,7 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.3'
 }
 
 dependencyManagement {
